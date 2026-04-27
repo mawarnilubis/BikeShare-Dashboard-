@@ -92,7 +92,7 @@ def create_rfm_df(df):
 # LOAD DATA
 # ─────────────────────────────────────────
 try:
-    main_df = pd.read_csv("main_data.csv")
+    main_df = pd.read_csv(os.path.join(os.path.dirname(__file__), "main_data.csv"))
     main_df["dteday"] = pd.to_datetime(main_df["dteday"])
 except FileNotFoundError:
     st.error("File 'main_data.csv' tidak ditemukan. Pastikan file berada di folder yang sama.")

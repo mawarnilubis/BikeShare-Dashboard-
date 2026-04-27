@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bike Sharing Analysis Dashboard
 
 Dashboard ini merupakan proyek akhir analisis data untuk mengeksplorasi tren penyewaan sepeda menggunakan Bike Sharing Dataset. Proyek ini mencakup seluruh siklus analisis data, mulai dari *Data Wrangling*, *Exploratory Data Analysis* (EDA), hingga visualisasi interaktif menggunakan Streamlit.
@@ -74,3 +75,7 @@ Optimasi Stok: Menambah unit sepeda di area rekreasi saat akhir pekan untuk mela
 Maintenance: Melakukan perawatan rutin pada hari Selasa atau Rabu karena secara statistik memiliki volume penyewaan terendah.
 
 Strategi Marketing: Memberikan promo khusus atau insentif pada saat cluster suhu dingin untuk menjaga stabilitas jumlah penyewaan.
+=======
+# BikeShare-Dashboard-
+Dashboard analisis data Bike Sharing menggunakan Streamlit untuk menganalisis pola penggunaan berdasarkan cuaca dan jam (2011–2012).
+>>>>>>> 82ac83d601dd3a56e0e4fe7e4aae925dd7859834
